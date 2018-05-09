@@ -1,0 +1,443 @@
+2018-05-09 14:18:12,788 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-05-09 14:18:12,793 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.5.Final
+2018-05-09 14:18:12,800 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-05-09 14:18:12,800 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-05-09 14:18:12,817 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-05-09 14:18:12,825 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-05-09 14:18:12,827 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2018-05-09 14:18:12,828 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-05-09 14:18:12,870 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-05-09 14:18:12,875 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-05-09 14:18:12,962 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.4.18.Final starting
+2018-05-09 14:18:12,974 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2018-05-09 14:18:13,017 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-05-09 14:18:13,050 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2018-05-09 14:18:13,051 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-05-09 14:18:13,056 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-05-09 14:18:13,320 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-05-09 14:18:13,320 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-05-09 14:18:13,421 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'D:\TEMP_FOLDER\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-05-09 14:18:13,434 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2018-05-09 14:18:13,435 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2018-05-09 14:18:14,012 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-05-09 14:18:14,023 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-05-09 14:18:14,066 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2018-05-09 14:18:14,069 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore D:\TEMP_FOLDER\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-05-09 14:18:14,079 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory D:\TEMP_FOLDER\wildfly-11.0.0.Final\standalone\deployments
+2018-05-09 14:18:14,106 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "employeeSkills.war" (runtime-name: "employeeSkills.war")
+2018-05-09 14:18:14,454 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-05-09 14:18:14,913 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-05-09 14:18:15,047 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2018-05-09 14:18:17,355 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2018-05-09 14:18:17,357 WARN  [org.jboss.as.ee] (MSC service thread 1-8) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2018-05-09 14:18:17,434 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2018-05-09 14:18:17,550 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-05-09 14:18:17,617 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = employeeSkills.war_org.postgresql.Driver_9_3
+2018-05-09 14:18:17,824 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-05-09 14:18:18,046 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 64) 1 Spring WebApplicationInitializers detected on classpath
+2018-05-09 14:18:18,137 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 64) Initializing Mojarra 2.2.13.SP4  for context '/employeeSkills'
+2018-05-09 14:18:19,378 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 64) JSF1057: The resource referred to by from-view-id, 'index.xhtml', does not start with '/'.  This will be added for you, but it should be corrected. 
+2018-05-09 14:18:20,077 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 64) Running on PrimeFaces 5.0
+2018-05-09 14:18:20,081 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 64) Initializing Spring root WebApplicationContext
+2018-05-09 14:18:20,082 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 64) Root WebApplicationContext: initialization started
+2018-05-09 14:18:20,129 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 64) Refreshing Root WebApplicationContext: startup date [Wed May 09 14:18:20 EEST 2018]; root of context hierarchy
+2018-05-09 14:18:20,170 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 64) Registering annotated classes: [class com.yonder.study.config.SpringConfiguration]
+2018-05-09 14:18:20,531 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 64) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-09 14:18:20,632 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] (ServerService Thread Pool -- 64) Loaded JDBC driver: org.postgresql.Driver
+2018-05-09 14:18:20,717 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 64) HHH000412: Hibernate Core {5.1.0.Final}
+2018-05-09 14:18:20,721 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000206: hibernate.properties not found
+2018-05-09 14:18:20,724 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 64) HHH000021: Bytecode provider name : javassist
+2018-05-09 14:18:20,754 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 64) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-09 14:18:21,028 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 64) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2018-05-09 14:18:21,333 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 64) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-09 14:18:21,336 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 64) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@656dbdfc
+2018-05-09 14:18:21,609 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 64) HV000001: Hibernate Validator 5.3.5.Final
+2018-05-09 14:18:22,469 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/employee/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.Employee>> com.yonder.study.controller.EmployeeController.getEmployees()
+2018-05-09 14:18:22,471 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/employee/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.getEmployee(long)
+2018-05-09 14:18:22,472 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/employee/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.createEmployee(long)
+2018-05-09 14:18:22,472 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/employee/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.createEmployee(com.yonder.study.model.Employee)
+2018-05-09 14:18:22,473 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/employee/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.updateEmployee(com.yonder.study.model.Employee,long)
+2018-05-09 14:18:22,480 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.getTeam(long)
+2018-05-09 14:18:22,486 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.Team>> com.yonder.study.controller.TeamController.getTeams()
+2018-05-09 14:18:22,491 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.updateTeam(com.yonder.study.model.Team,long)
+2018-05-09 14:18:22,495 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.createTeam(com.yonder.study.model.Team)
+2018-05-09 14:18:22,496 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.deleteTeam(long)
+2018-05-09 14:18:22,502 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team-employee/employee/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TeamEmployee>> com.yonder.study.controller.TeamEmployeeController.getTeamsForEmployee(long)
+2018-05-09 14:18:22,503 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team-employee/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TeamEmployee>> com.yonder.study.controller.TeamEmployeeController.getTeamEmployees()
+2018-05-09 14:18:22,504 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team-employee/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.getTeamEmployee(long)
+2018-05-09 14:18:22,504 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team-employee/team/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TeamEmployee>> com.yonder.study.controller.TeamEmployeeController.getEmployeesForTeam(long)
+2018-05-09 14:18:22,505 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team-employee/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.updateTeamEmployee(com.yonder.study.model.TeamEmployee,long)
+2018-05-09 14:18:22,506 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team-employee/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.createTeamEmployee(long)
+2018-05-09 14:18:22,506 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/team-employee/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.createTeamEmployee(com.yonder.study.model.TeamEmployee)
+2018-05-09 14:18:22,514 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/techlog/get/technology/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLogForTechnology(long)
+2018-05-09 14:18:22,514 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/techlog/get/employee/{employeeId}/technology/{technologyId}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLog(long,long)
+2018-05-09 14:18:22,515 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/techlog/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.getTechLog(long)
+2018-05-09 14:18:22,516 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/techlog/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLogs()
+2018-05-09 14:18:22,517 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/techlog/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.updateTechLog(com.yonder.study.model.TechLog,long)
+2018-05-09 14:18:22,518 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/techlog/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.createTechLog(long)
+2018-05-09 14:18:22,518 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/techlog/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.createTechLog(com.yonder.study.model.TechLog)
+2018-05-09 14:18:22,519 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/techlog/get/employee/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLogForEmployee(long)
+2018-05-09 14:18:22,526 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/technology/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.Technology>> com.yonder.study.controller.TechnologyController.getTechnologies()
+2018-05-09 14:18:22,527 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/technology/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.getTechnology(long)
+2018-05-09 14:18:22,528 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/technology/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.updateTechnology(com.yonder.study.model.Technology,long)
+2018-05-09 14:18:22,530 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/technology/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.deleteTechnology(long)
+2018-05-09 14:18:22,532 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 64) Mapped "{[/technology/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.createTechnology(com.yonder.study.model.Technology)
+2018-05-09 14:18:22,890 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 64) Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Wed May 09 14:18:20 EEST 2018]; root of context hierarchy
+2018-05-09 14:18:22,982 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager] (ServerService Thread Pool -- 64) Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@54818339] of Hibernate SessionFactory for HibernateTransactionManager
+2018-05-09 14:18:23,138 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 64) Root WebApplicationContext: initialization completed in 3056 ms
+2018-05-09 14:18:23,191 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 64) Initializing Spring FrameworkServlet 'dispatcher'
+2018-05-09 14:18:23,205 INFO  [org.springframework.web.servlet.DispatcherServlet] (ServerService Thread Pool -- 64) FrameworkServlet 'dispatcher': initialization started
+2018-05-09 14:18:23,212 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 64) Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed May 09 14:18:23 EEST 2018]; parent: Root WebApplicationContext
+2018-05-09 14:18:23,222 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 64) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-09 14:18:23,307 INFO  [org.springframework.web.servlet.DispatcherServlet] (ServerService Thread Pool -- 64) FrameworkServlet 'dispatcher': initialization completed in 100 ms
+2018-05-09 14:18:23,308 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: '/employeeSkills' for server 'default-server'
+2018-05-09 14:18:23,401 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "employeeSkills.war" (runtime-name : "employeeSkills.war")
+2018-05-09 14:18:23,621 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-05-09 14:18:23,623 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-05-09 14:18:23,624 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-05-09 14:18:23,624 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 14846ms - Started 529 of 757 services (353 services are lazy, passive or on-demand)
+2018-05-09 14:18:46,106 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-22) HHH000397: Using ASTQueryTranslatorFactory
+2018-05-09 14:26:21,183 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+2018-05-09 14:26:21,185 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: EJB subsystem suspension complete
+2018-05-09 14:26:21,191 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-05-09 14:26:21,211 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = employeeSkills.war_org.postgresql.Driver_9_3
+2018-05-09 14:26:21,309 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 25) WFLYUT0022: Unregistered web context: '/employeeSkills' from server 'default-server'
+2018-05-09 14:26:21,422 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 25) Destroying Spring FrameworkServlet 'dispatcher'
+2018-05-09 14:26:21,423 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 25) Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed May 09 14:18:23 EEST 2018]; parent: Root WebApplicationContext
+2018-05-09 14:26:21,443 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 25) Closing Spring root WebApplicationContext
+2018-05-09 14:26:21,443 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 25) Closing Root WebApplicationContext: startup date [Wed May 09 14:18:20 EEST 2018]; root of context hierarchy
+2018-05-09 14:26:21,535 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-05-09 14:26:21,552 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host stopping
+2018-05-09 14:26:21,558 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-05-09 14:26:21,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 98) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-05-09 14:26:21,592 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-05-09 14:26:21,593 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-05-09 14:26:21,595 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2018-05-09 14:26:21,595 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-05-09 14:26:21,596 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.4.18.Final stopping
+2018-05-09 14:26:21,668 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment employeeSkills.war (runtime-name: employeeSkills.war) in 449ms
+2018-05-09 14:26:21,684 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 414ms
+2018-05-09 21:58:05,629 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-05-09 21:58:05,643 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2018-05-09 21:58:05,689 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-05-09 21:58:05,719 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-05-09 21:58:05,730 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-05-09 21:58:05,754 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-05-09 21:58:05,768 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-05-09 21:58:05,768 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-05-09 21:58:05,878 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-05-09 21:58:05,880 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2018-05-09 21:58:05,944 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-05-09 21:58:05,961 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2018-05-09 21:58:05,962 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-05-09 21:58:06,302 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.4.18.Final starting
+2018-05-09 21:58:06,732 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'D:\Employee-evidence\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-05-09 21:58:07,147 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-05-09 21:58:07,166 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-05-09 21:58:07,182 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-05-09 21:58:07,291 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2018-05-09 21:58:07,305 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2018-05-09 21:58:07,345 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.5.Final
+2018-05-09 21:58:07,519 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-05-09 21:58:07,718 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: EJB subsystem suspension complete
+2018-05-09 21:58:07,921 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-05-09 21:58:09,844 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-05-09 21:58:09,944 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory D:\Employee-evidence\wildfly-11.0.0.Final\standalone\deployments
+2018-05-09 21:58:09,943 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore D:\Employee-evidence\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-05-09 21:58:10,314 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "employeeSkills.war" (runtime-name: "employeeSkills.war")
+2018-05-09 21:58:10,860 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-05-09 21:58:12,292 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2018-05-09 21:58:17,065 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2018-05-09 21:58:17,069 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2018-05-09 21:58:17,300 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2018-05-09 21:58:17,853 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-05-09 21:58:17,917 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-05-09 21:58:18,060 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = employeeSkills.war_org.postgresql.Driver_9_3
+2018-05-09 21:58:18,276 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 69) 1 Spring WebApplicationInitializers detected on classpath
+2018-05-09 21:58:18,395 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 69) Initializing Mojarra 2.2.13.SP4  for context '/employeeSkills'
+2018-05-09 21:58:20,123 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 69) JSF1057: The resource referred to by from-view-id, 'index.xhtml', does not start with '/'.  This will be added for you, but it should be corrected. 
+2018-05-09 21:58:21,100 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 69) Running on PrimeFaces 5.0
+2018-05-09 21:58:21,105 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 69) Initializing Spring root WebApplicationContext
+2018-05-09 21:58:21,105 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 69) Root WebApplicationContext: initialization started
+2018-05-09 21:58:21,194 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 69) Refreshing Root WebApplicationContext: startup date [Wed May 09 21:58:21 EEST 2018]; root of context hierarchy
+2018-05-09 21:58:21,265 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 69) Registering annotated classes: [class com.yonder.study.config.SpringConfiguration]
+2018-05-09 21:58:21,788 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 69) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-09 21:58:22,035 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] (ServerService Thread Pool -- 69) Loaded JDBC driver: org.postgresql.Driver
+2018-05-09 21:58:22,167 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 69) HHH000412: Hibernate Core {5.1.0.Final}
+2018-05-09 21:58:22,174 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 69) HHH000206: hibernate.properties not found
+2018-05-09 21:58:22,176 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 69) HHH000021: Bytecode provider name : javassist
+2018-05-09 21:58:22,227 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 69) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-09 21:58:22,728 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 69) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2018-05-09 21:58:23,152 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 69) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-09 21:58:23,158 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 69) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@55f37d5a
+2018-05-09 21:58:23,494 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 69) HV000001: Hibernate Validator 5.3.5.Final
+2018-05-09 21:58:25,412 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 69) Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Wed May 09 21:58:21 EEST 2018]; root of context hierarchy
+2018-05-09 21:58:25,521 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/employee/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.getEmployee(long)
+2018-05-09 21:58:25,525 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/employee/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.Employee>> com.yonder.study.controller.EmployeeController.getEmployees()
+2018-05-09 21:58:25,528 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/employee/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.updateEmployee(com.yonder.study.model.Employee,long)
+2018-05-09 21:58:25,532 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/employee/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.createEmployee(long)
+2018-05-09 21:58:25,532 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/employee/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.createEmployee(com.yonder.study.model.Employee)
+2018-05-09 21:58:25,542 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.Team>> com.yonder.study.controller.TeamController.getTeams()
+2018-05-09 21:58:25,542 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.getTeam(long)
+2018-05-09 21:58:25,543 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.updateTeam(com.yonder.study.model.Team,long)
+2018-05-09 21:58:25,544 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.deleteTeam(long)
+2018-05-09 21:58:25,545 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.createTeam(com.yonder.study.model.Team)
+2018-05-09 21:58:25,553 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team-employee/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TeamEmployee>> com.yonder.study.controller.TeamEmployeeController.getTeamEmployees()
+2018-05-09 21:58:25,555 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team-employee/team/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TeamEmployee>> com.yonder.study.controller.TeamEmployeeController.getEmployeesForTeam(long)
+2018-05-09 21:58:25,562 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team-employee/employee/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TeamEmployee>> com.yonder.study.controller.TeamEmployeeController.getTeamsForEmployee(long)
+2018-05-09 21:58:25,563 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team-employee/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.updateTeamEmployee(com.yonder.study.model.TeamEmployee,long)
+2018-05-09 21:58:25,564 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team-employee/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.createTeamEmployee(long)
+2018-05-09 21:58:25,565 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team-employee/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.createTeamEmployee(com.yonder.study.model.TeamEmployee)
+2018-05-09 21:58:25,566 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/team-employee/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.getTeamEmployee(long)
+2018-05-09 21:58:25,572 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/techlog/get/employee/{employeeId}/technology/{technologyId}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLog(long,long)
+2018-05-09 21:58:25,573 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/techlog/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.getTechLog(long)
+2018-05-09 21:58:25,574 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/techlog/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLogs()
+2018-05-09 21:58:25,574 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/techlog/get/employee/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLogForEmployee(long)
+2018-05-09 21:58:25,575 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/techlog/get/technology/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLogForTechnology(long)
+2018-05-09 21:58:25,575 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/techlog/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.createTechLog(long)
+2018-05-09 21:58:25,576 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/techlog/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.createTechLog(com.yonder.study.model.TechLog)
+2018-05-09 21:58:25,576 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/techlog/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.updateTechLog(com.yonder.study.model.TechLog,long)
+2018-05-09 21:58:25,581 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/technology/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.getTechnology(long)
+2018-05-09 21:58:25,582 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/technology/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.Technology>> com.yonder.study.controller.TechnologyController.getTechnologies()
+2018-05-09 21:58:25,583 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/technology/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.deleteTechnology(long)
+2018-05-09 21:58:25,584 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/technology/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.createTechnology(com.yonder.study.model.Technology)
+2018-05-09 21:58:25,584 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 69) Mapped "{[/technology/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.updateTechnology(com.yonder.study.model.Technology,long)
+2018-05-09 21:58:25,641 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager] (ServerService Thread Pool -- 69) Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@2430a738] of Hibernate SessionFactory for HibernateTransactionManager
+2018-05-09 21:58:25,976 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 69) Root WebApplicationContext: initialization completed in 4871 ms
+2018-05-09 21:58:26,018 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 69) Initializing Spring FrameworkServlet 'dispatcher'
+2018-05-09 21:58:26,018 INFO  [org.springframework.web.servlet.DispatcherServlet] (ServerService Thread Pool -- 69) FrameworkServlet 'dispatcher': initialization started
+2018-05-09 21:58:26,022 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 69) Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed May 09 21:58:26 EEST 2018]; parent: Root WebApplicationContext
+2018-05-09 21:58:26,024 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 69) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-09 21:58:26,076 INFO  [org.springframework.web.servlet.DispatcherServlet] (ServerService Thread Pool -- 69) FrameworkServlet 'dispatcher': initialization completed in 58 ms
+2018-05-09 21:58:26,077 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: '/employeeSkills' for server 'default-server'
+2018-05-09 21:58:26,162 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "employeeSkills.war" (runtime-name : "employeeSkills.war")
+2018-05-09 21:58:26,332 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-05-09 21:58:26,335 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-05-09 21:58:26,336 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-05-09 21:58:26,336 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 30225ms - Started 529 of 757 services (353 services are lazy, passive or on-demand)
+2018-05-09 21:58:45,779 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+2018-05-09 21:58:45,782 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: EJB subsystem suspension complete
+2018-05-09 21:58:45,786 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-05-09 21:58:45,849 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = employeeSkills.war_org.postgresql.Driver_9_3
+2018-05-09 21:58:45,860 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 17) WFLYUT0022: Unregistered web context: '/employeeSkills' from server 'default-server'
+2018-05-09 21:58:45,916 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 17) Destroying Spring FrameworkServlet 'dispatcher'
+2018-05-09 21:58:45,917 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 17) Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed May 09 21:58:26 EEST 2018]; parent: Root WebApplicationContext
+2018-05-09 21:58:45,963 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 17) Closing Spring root WebApplicationContext
+2018-05-09 21:58:45,964 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 17) Closing Root WebApplicationContext: startup date [Wed May 09 21:58:21 EEST 2018]; root of context hierarchy
+2018-05-09 21:58:46,032 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-05-09 21:58:46,054 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-05-09 21:58:46,068 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 2) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-05-09 21:58:46,114 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2018-05-09 21:58:46,145 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2018-05-09 21:58:46,148 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-05-09 21:58:46,150 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-05-09 21:58:46,150 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-05-09 21:58:46,157 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.4.18.Final stopping
+2018-05-09 21:58:46,316 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment employeeSkills.war (runtime-name: employeeSkills.war) in 501ms
+2018-05-09 21:58:46,370 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) stopped in 559ms
+2018-05-09 21:58:48,764 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.1.Final
+2018-05-09 21:58:49,344 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1
+2018-05-09 21:58:49,543 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) starting
+2018-05-09 21:58:49,545 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1250
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\Employee-evidence\wildfly-11.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_131\jre
+	java.io.tmpdir = C:\Users\BogdanA\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;D:\devTools\jdk8u121\bin;D:\Maven\maven3.2.2\bin;D:\Other\Apache\db-derby-10.11.1.1-bin\lib\derby.jar;D:\Other\Apache\db-derby-10.11.1.1-bin\lib\derbytools.jar;D:\Other\Apache\db-derby-10.11.1.1-bin;C:\Program Files\nodejs\;C:\Users\BogdanA\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\;;D:\Other\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_131-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\Employee-evidence\wildfly-11.0.0.Final
+	jboss.host.name = bogdana-lap
+	jboss.modules.dir = D:\Employee-evidence\wildfly-11.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = bogdana-lap
+	jboss.qualified.host.name = bogdana-lap
+	jboss.server.base.dir = D:\Employee-evidence\wildfly-11.0.0.Final\standalone
+	jboss.server.config.dir = D:\Employee-evidence\wildfly-11.0.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\Employee-evidence\wildfly-11.0.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\Employee-evidence\wildfly-11.0.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\Employee-evidence\wildfly-11.0.0.Final\standalone\log
+	jboss.server.name = bogdana-lap
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\Employee-evidence\wildfly-11.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/Employee-evidence/wildfly-11.0.0.Final/standalone/configuration/logging.properties
+	module.path = D:/Employee-evidence/wildfly-11.0.0.Final/modules
+	org.jboss.boot.log.file = D:/Employee-evidence/wildfly-11.0.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 11 (Tech Preview)
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_131\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/Employee-evidence/wildfly-11.0.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\Employee-evidence\wildfly-11.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1250
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.country.format = RO
+	user.dir = D:\Employee-evidence\wildfly-11.0.0.Final\bin
+	user.home = C:\Users\BogdanA
+	user.language = en
+	user.language.format = ro
+	user.name = BogdanA
+	user.script = 
+	user.timezone = Europe/Athens
+	user.variant = 
+2018-05-09 21:58:49,546 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 11 (Tech Preview) -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/Employee-evidence/wildfly-11.0.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/D:/Employee-evidence/wildfly-11.0.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=D:/Employee-evidence/wildfly-11.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1250 
+2018-05-09 21:58:52,582 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-05-09 21:58:52,629 INFO  [org.wildfly.security] (ServerService Thread Pool -- 13) ELY00001: WildFly Elytron version 1.1.6.Final
+2018-05-09 21:58:52,642 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 25) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-05-09 21:58:52,785 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found employeeSkills.war in deployment directory. To trigger deployment create a file called employeeSkills.war.dodeploy
+2018-05-09 21:58:52,843 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-05-09 21:58:52,871 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.5.4.Final
+2018-05-09 21:58:52,887 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.5.4.Final
+2018-05-09 21:58:53,020 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-05-09 21:58:53,028 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-05-09 21:58:53,036 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-05-09 21:58:53,051 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-05-09 21:58:53,073 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-05-09 21:58:53,074 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.0.24.Final
+2018-05-09 21:58:53,089 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-05-09 21:58:53,127 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-05-09 21:58:53,134 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.6.Final)
+2018-05-09 21:58:53,206 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.4.18.Final starting
+2018-05-09 21:58:53,243 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-05-09 21:58:53,248 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-05-09 21:58:53,297 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2018-05-09 21:58:53,303 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-05-09 21:58:53,726 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'D:\Employee-evidence\wildfly-11.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-05-09 21:58:54,334 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-05-09 21:58:54,340 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-05-09 21:58:54,341 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-05-09 21:58:54,423 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2018-05-09 21:58:54,426 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.5.Final
+2018-05-09 21:58:54,454 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2018-05-09 21:58:54,665 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-05-09 21:58:54,712 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-05-09 21:58:54,725 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore D:\Employee-evidence\wildfly-11.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-05-09 21:58:54,732 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory D:\Employee-evidence\wildfly-11.0.0.Final\standalone\deployments
+2018-05-09 21:58:54,790 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "employeeSkills.war" (runtime-name: "employeeSkills.war")
+2018-05-09 21:58:54,962 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: EJB subsystem suspension complete
+2018-05-09 21:58:55,465 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-05-09 21:58:55,871 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-05-09 21:58:55,991 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.9.Final (Apache CXF 3.1.12) 
+2018-05-09 21:59:01,346 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2018-05-09 21:59:01,350 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2018-05-09 21:59:01,513 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final
+2018-05-09 21:59:01,822 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2018-05-09 21:59:01,956 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = employeeSkills.war_org.postgresql.Driver_9_3
+2018-05-09 21:59:02,178 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-05-09 21:59:02,407 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 62) 1 Spring WebApplicationInitializers detected on classpath
+2018-05-09 21:59:02,532 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 62) Initializing Mojarra 2.2.13.SP4  for context '/employeeSkills'
+2018-05-09 21:59:04,715 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 62) JSF1057: The resource referred to by from-view-id, 'index.xhtml', does not start with '/'.  This will be added for you, but it should be corrected. 
+2018-05-09 21:59:05,515 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 62) Running on PrimeFaces 5.0
+2018-05-09 21:59:05,520 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 62) Initializing Spring root WebApplicationContext
+2018-05-09 21:59:05,520 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 62) Root WebApplicationContext: initialization started
+2018-05-09 21:59:05,580 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 62) Refreshing Root WebApplicationContext: startup date [Wed May 09 21:59:05 EEST 2018]; root of context hierarchy
+2018-05-09 21:59:05,652 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 62) Registering annotated classes: [class com.yonder.study.config.SpringConfiguration]
+2018-05-09 21:59:06,183 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 62) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-09 21:59:06,333 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] (ServerService Thread Pool -- 62) Loaded JDBC driver: org.postgresql.Driver
+2018-05-09 21:59:06,458 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 62) HHH000412: Hibernate Core {5.1.0.Final}
+2018-05-09 21:59:06,463 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000206: hibernate.properties not found
+2018-05-09 21:59:06,465 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000021: Bytecode provider name : javassist
+2018-05-09 21:59:06,515 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 62) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-09 21:59:07,050 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2018-05-09 21:59:07,442 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 62) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-09 21:59:07,446 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 62) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7f147d7b
+2018-05-09 21:59:07,781 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 62) HV000001: Hibernate Validator 5.3.5.Final
+2018-05-09 21:59:09,558 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (ServerService Thread Pool -- 62) Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Wed May 09 21:59:05 EEST 2018]; root of context hierarchy
+2018-05-09 21:59:09,711 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/employee/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.Employee>> com.yonder.study.controller.EmployeeController.getEmployees()
+2018-05-09 21:59:09,713 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/employee/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.getEmployee(long)
+2018-05-09 21:59:09,714 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/employee/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.updateEmployee(com.yonder.study.model.Employee,long)
+2018-05-09 21:59:09,722 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/employee/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.createEmployee(long)
+2018-05-09 21:59:09,724 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/employee/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Employee> com.yonder.study.controller.EmployeeController.createEmployee(com.yonder.study.model.Employee)
+2018-05-09 21:59:09,740 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.Team>> com.yonder.study.controller.TeamController.getTeams()
+2018-05-09 21:59:09,740 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.getTeam(long)
+2018-05-09 21:59:09,741 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.deleteTeam(long)
+2018-05-09 21:59:09,742 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.createTeam(com.yonder.study.model.Team)
+2018-05-09 21:59:09,742 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Team> com.yonder.study.controller.TeamController.updateTeam(com.yonder.study.model.Team,long)
+2018-05-09 21:59:09,756 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team-employee/team/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TeamEmployee>> com.yonder.study.controller.TeamEmployeeController.getEmployeesForTeam(long)
+2018-05-09 21:59:09,757 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team-employee/employee/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TeamEmployee>> com.yonder.study.controller.TeamEmployeeController.getTeamsForEmployee(long)
+2018-05-09 21:59:09,758 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team-employee/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TeamEmployee>> com.yonder.study.controller.TeamEmployeeController.getTeamEmployees()
+2018-05-09 21:59:09,759 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team-employee/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.getTeamEmployee(long)
+2018-05-09 21:59:09,760 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team-employee/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.createTeamEmployee(long)
+2018-05-09 21:59:09,760 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team-employee/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.createTeamEmployee(com.yonder.study.model.TeamEmployee)
+2018-05-09 21:59:09,761 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/team-employee/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TeamEmployee> com.yonder.study.controller.TeamEmployeeController.updateTeamEmployee(com.yonder.study.model.TeamEmployee,long)
+2018-05-09 21:59:09,778 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/techlog/get/technology/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLogForTechnology(long)
+2018-05-09 21:59:09,779 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/techlog/get/employee/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLogForEmployee(long)
+2018-05-09 21:59:09,780 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/techlog/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLogs()
+2018-05-09 21:59:09,781 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/techlog/get/employee/{employeeId}/technology/{technologyId}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.TechLog>> com.yonder.study.controller.TechLogController.getTechLog(long,long)
+2018-05-09 21:59:09,781 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/techlog/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.getTechLog(long)
+2018-05-09 21:59:09,782 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/techlog/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.createTechLog(long)
+2018-05-09 21:59:09,782 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/techlog/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.createTechLog(com.yonder.study.model.TechLog)
+2018-05-09 21:59:09,783 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/techlog/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.TechLog> com.yonder.study.controller.TechLogController.updateTechLog(com.yonder.study.model.TechLog,long)
+2018-05-09 21:59:09,788 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/technology/all],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.yonder.study.model.Technology>> com.yonder.study.controller.TechnologyController.getTechnologies()
+2018-05-09 21:59:09,789 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/technology/get/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.getTechnology(long)
+2018-05-09 21:59:09,789 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/technology/delete/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.deleteTechnology(long)
+2018-05-09 21:59:09,790 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/technology/create],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.createTechnology(com.yonder.study.model.Technology)
+2018-05-09 21:59:09,790 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (ServerService Thread Pool -- 62) Mapped "{[/technology/update/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.yonder.study.model.Technology> com.yonder.study.controller.TechnologyController.updateTechnology(com.yonder.study.model.Technology,long)
+2018-05-09 21:59:09,914 INFO  [org.springframework.orm.hibernate5.HibernateTransactionManager] (ServerService Thread Pool -- 62) Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@6f84a3cd] of Hibernate SessionFactory for HibernateTransactionManager
+2018-05-09 21:59:09,988 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 62) Root WebApplicationContext: initialization completed in 4468 ms
+2018-05-09 21:59:10,092 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 62) Initializing Spring FrameworkServlet 'dispatcher'
+2018-05-09 21:59:10,092 INFO  [org.springframework.web.servlet.DispatcherServlet] (ServerService Thread Pool -- 62) FrameworkServlet 'dispatcher': initialization started
+2018-05-09 21:59:10,100 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (ServerService Thread Pool -- 62) Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed May 09 21:59:10 EEST 2018]; parent: Root WebApplicationContext
+2018-05-09 21:59:10,103 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 62) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-09 21:59:10,137 INFO  [org.springframework.web.servlet.DispatcherServlet] (ServerService Thread Pool -- 62) FrameworkServlet 'dispatcher': initialization completed in 44 ms
+2018-05-09 21:59:10,138 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: '/employeeSkills' for server 'default-server'
+2018-05-09 21:59:10,221 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "employeeSkills.war" (runtime-name : "employeeSkills.war")
+2018-05-09 21:59:10,456 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-05-09 21:59:10,459 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-05-09 21:59:10,460 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-05-09 21:59:10,460 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 11.0.0.Final (WildFly Core 3.0.8.Final) started in 22426ms - Started 529 of 757 services (353 services are lazy, passive or on-demand)
+2018-05-09 21:59:16,724 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-15) HHH000397: Using ASTQueryTranslatorFactory

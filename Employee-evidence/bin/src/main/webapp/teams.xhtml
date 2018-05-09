@@ -1,0 +1,63 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Register Teams</title>
+</h:head>
+<h:body>
+	<ui:include src="tabMenu.xhtml" />
+
+	<h:form id="form" width="50%">
+		<p:dataTable scrollable="true" scrollHeight="100" id="teamTable"
+			var="team" value="#{listTeam.teams}" rowKey="#{team.id}"
+			selection="#{listTeam.selectedTeam}" selectionMode="single"
+			ajax="true" widgetVar="empTeam"
+			emptyMessage="No team found with given criteria"
+			filteredValue="#{listTeam.filteredTeams}">
+
+			<p:ajax event="rowSelect" update=":form:teamEmployeeTable"
+				process="teamTable" />
+				
+			<f:facet name="header">
+	            List of the Teams
+	        </f:facet>
+
+			<p:column filterBy="#{team.name}" headerText="Name">
+				<h:outputText value="#{team.name}" />
+			</p:column>
+			<p:column headerText="Number of members">
+				<h:outputText value="#{team.nbOfMembers}" />
+			</p:column>
+
+			<f:facet name="footer">
+        			In total there are #{listTeam.teams.size()} teams.
+    		</f:facet>
+
+		</p:dataTable>
+		
+		<p:dataTable id="teamEmployeeTable" var="teamEmployee"
+				value="#{listTeam.teamEmployeeList}" rowKey="#{teamEmployee.id}"
+				scrollable="true" scrollHeight="150">
+
+			<f:facet name="header">
+	            List of the members
+	        </f:facet>
+
+			<p:column headerText="Team member name">
+				<h:outputText value="#{listTeam.getEmployeeById(1).fullName}" />
+			</p:column>
+			<p:column headerText="Date of joining the team">
+				<h:outputText value="#{teamEmployee.date}" />
+			</p:column>
+
+			<f:facet name="footer">
+        			In total there are #{listTeam.teamEmployeeList.size()} team members.
+    		</f:facet>
+
+		</p:dataTable>
+	</h:form>
+
+</h:body>
+</html>

@@ -1,0 +1,42 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Register Employee</title>
+</h:head>
+<h:body>
+	<h:form>
+		<p:tabMenu activeIndex="#{param.i}">
+			<p:menuitem value="Employees" outcome="index" icon="ui-icon-user">
+				<f:param name="i" value="0" />
+			</p:menuitem>
+			<p:menuitem value="Teams" outcome="index" icon="ui-icon-team">
+				<f:param name="i" value="1" />
+			</p:menuitem>
+			<p:menuitem value="Technologies" outcome="index"
+				icon="ui-icon-document">
+				<f:param name="i" value="2" />
+			</p:menuitem>
+		</p:tabMenu>
+
+
+		<p:growl id="messages"></p:growl>
+		<p:panelGrid columns="2">
+			<p:outputLabel value="Enter Employee Name:"></p:outputLabel>
+			<p:inputText value="#{registerEmployee.employee.person.fullName}"></p:inputText>
+			<p:outputLabel value="Enter Employee Email:"></p:outputLabel>
+			<p:inputText value="#{registerEmployee.employee.person.email}"></p:inputText>
+			<p:outputLabel value="Enter Employee Sex"></p:outputLabel>
+			<p:inputText value="#{registerEmployee.employee.person.sex}"></p:inputText>
+			<p:outputLabel value="Enter Employee Date:"></p:outputLabel>
+			<p:calendar value="#{registerEmployee.employee.employeeDate}"></p:calendar>
+			<p:outputLabel value="Enter Employee Cluster:"></p:outputLabel>
+			<p:inputText value="#{registerEmployee.employee.cluster}"></p:inputText>
+		</p:panelGrid>
+		<p:commandButton value="Register"
+			action="#{registerEmployee.register}" update="messages"></p:commandButton>
+	</h:form>
+</h:body>
+</html>

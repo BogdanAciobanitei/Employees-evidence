@@ -1,0 +1,123 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Teams</title>
+</h:head>
+<h:body>
+	<ui:include src="tabMenu.xhtml" />
+
+	<h:form id="form" width="50%">
+
+		<p:dataTable scrollable="true" scrollHeight="100" id="teamTable"
+			var="team" value="#{listTeam.teams}" rowKey="#{team.id}"
+			selection="#{listTeam.selectedTeam}" selectionMode="single"
+			ajax="true" widgetVar="empTeam"
+			emptyMessage="No team found with given criteria">
+			<p:ajax event="rowSelect"
+				update=":form:teamEmployeeForm:teamEmployeeTable"
+				process="teamTable" />
+
+			<f:facet name="header">
+	            List of the Teams
+	        </f:facet>
+
+			<p:column filterBy="#{team.name}" headerText="Name">
+				<h:outputText value="#{team.name}" />
+			</p:column>
+			<p:column headerText="Number of members">
+				<h:outputText value="#{team.nbOfMembers}" />
+			</p:column>
+
+			<f:facet name="footer">
+        			In total there are #{listTeam.teams.size()} teams.
+    		</f:facet>
+
+		</p:dataTable>
+
+
+		<h:form id="teamEmployeeForm">
+			<p:dataTable id="teamEmployeeTable" var="teamEmployee"
+				value="#{listTeam.teamEmployees}" rowKey="#{teamEmployee.id}"
+				selection="#{listTeam.selectedTeamEmployee}" selectionMode="single"
+				scrollable="true" scrollHeight="150" ajax="true">
+
+				<p:ajax event="rowSelect"
+					update=":form:teamEmployeeForm:removeButtonId"
+					process=":form:teamEmployeeForm:teamEmployeeTable" />
+
+				<f:facet name="header">
+	            List of the members
+	        	</f:facet>
+
+				<p:column headerText="Team member name">
+					<h:outputText value="#{teamEmployee.employee.fullName}" />
+				</p:column>
+				<p:column headerText="Date of joining the team">
+					<h:outputText value="#{teamEmployee.date}" />
+				</p:column>
+
+			</p:dataTable>
+
+			<p:commandButton value="ADD" onclick="PF('dlg').show();"
+				title="Add team member" icon="ui-icon-plus">
+			</p:commandButton>
+			<p:commandButton id="removeButtonId" value="Remove"
+				update="teamEmployeeForm" icon="ui-icon-close" type="submit"
+				ajax="true" actionListener="#{listTeam.removeEmployee}"
+				process="@form"
+				oncomplete="handleModifyTeamRequest(xhr, status, args)"
+				disabled="#{listTeam.removeButtonDisabled}" />
+
+			<p:growl id="growl" showDetail="true" sticky="true" />
+
+			<p:dialog header="Add member" widgetVar="dlg" resizable="false">
+				<h:form>
+					<p:panel>
+						<h:panelGrid columns="2" cellpadding="5">
+							<h:outputLabel for="name" value="Name:" />
+							<p:selectOneMenu id="name"
+								value="#{listTeam.teamEmployeeToAdd.employee}"
+								style="width:150px" converter="#{employeeConverter}">
+								<f:selectItems value="#{listTeam.allEmployeeList}" var="emp"
+									itemLabel="#{emp.fullName}" itemValue="#{emp}" />
+							</p:selectOneMenu>
+
+							<p:outputLabel for="date" value="Date of joining:" />
+							<p:calendar id="date" value="#{listTeam.teamEmployeeToAdd.date}"
+								required="true" />
+
+
+							<f:facet name="footer">
+								<p:growl id="growl" showDetail="true" sticky="true" />
+								<p:commandButton value="Add"
+									update=":form:teamEmployeeForm growl" icon="ui-icon-plus"
+									type="submit" ajax="true"
+									actionListener="#{listTeam.addEmployee}"
+									oncomplete="handleModifyTeamRequest(xhr, status, args)"
+									validateClient="true" process="@form" />
+							</f:facet>
+						</h:panelGrid>
+					</p:panel>
+				</h:form>
+			</p:dialog>
+		</h:form>
+	</h:form>
+
+</h:body>
+
+<script type="text/javascript">
+	function handleModifyTeamRequest(xhr,(xhr, status, args) {
+		if (args.validationFailed || !args.success) {
+			PF('dlg').jq.effect("shake", {
+				times : 5
+			}, 100);
+		} else {
+			PF('dlg').hide();
+		}
+	}
+</script>
+
+</html>

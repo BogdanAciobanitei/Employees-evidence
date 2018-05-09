@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14725572418160" configfile="/employeeSkills/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="122" y="562" id="pf14725583257991" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf14798138724839 pf147981387248310 pf147981387248311" path="index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="employees.xhtml" id="pf147981387248312" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14798138724839" path="/employees.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="technologies.xhtml" id="pf147981387248413" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf147981387248310" path="/technologies.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="teams.xhtml" id="pf147981387248414" referenceLink="//@navigationRule.0/@navigationCase.2/@toViewId|" inlinks="pf147981387248311" path="/teams.xhtml"/>
+  <links id="pf14798138724839" target="pf147981387248312" source="pf14725583257991" outcome="employees"/>
+  <links id="pf147981387248310" target="pf147981387248413" source="pf14725583257991" outcome="technologies"/>
+  <links id="pf147981387248311" target="pf147981387248414" source="pf14725583257991" outcome="teams"/>
+</pageflow:Pageflow>

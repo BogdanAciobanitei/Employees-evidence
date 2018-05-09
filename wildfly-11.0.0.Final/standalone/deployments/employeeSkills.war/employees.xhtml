@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Employees</title>
+</h:head>
+<h:body>
+
+	<ui:include src="tabMenu.xhtml" />
+
+	<h:form id="form" width="50%">
+		<p:dataTable scrollable="true" scrollHeight="150" id="empTable"
+			var="employee" value="#{listEmployee.employees}"
+			rowKey="#{employee.id}" selection="#{listEmployee.selectedEmployee}"
+			selectionMode="single" ajax="true" widgetVar="empTable"
+			emptyMessage="No employees found with given criteria"
+			filteredValue="#{listEmployee.filteredEmployees}">
+
+			<p:ajax event="rowSelect" update=":form:techForm:techTable"
+				process="empTable" />
+
+			<f:facet name="header">
+	            List of the Employees
+	        </f:facet>
+
+			<p:column filterBy="#{employee.fullName}" headerText="Name">
+				<h:outputText value="#{employee.fullName}" />
+			</p:column>
+			<p:column headerText="Email">
+				<h:outputText value="#{employee.email}" />
+			</p:column>
+			<p:column headerText="Date of employee">
+				<h:outputText value="#{employee.employeeDate}" />
+			</p:column>
+
+			<f:facet name="footer">
+        			In total there are #{listEmployee.employees.size()} employees.
+    		</f:facet>
+
+		</p:dataTable>
+
+		<p:separator />
+
+		<h:form id="techForm">
+			<p:dataTable id="techTable" var="techlog"
+				value="#{listEmployee.techLogs}" rowKey="#{techlog.id}"
+				scrollable="true" scrollHeight="150"
+				sortBy="#{techlog.technology.name}">
+
+				<f:facet name="header">
+	            List of the Technologies
+	        </f:facet>
+
+				<p:column headerText="Name" sortBy="#{techlog.technology.name}">
+					<h:outputText value="#{techlog.technology.name}" />
+				</p:column>
+				<p:column headerText="Date" sortBy="#{techlog.date}">
+					<h:outputText value="#{techlog.date}" />
+				</p:column>
+				<p:column headerText="Rate" sortBy="#{techlog.rate}">
+					<h:outputText value="#{techlog.rate}" />
+				</p:column>
+
+				<f:facet name="footer">
+        			In total there are #{listEmployee.nrTech} different technologies.
+    		</f:facet>
+
+			</p:dataTable>
+
+
+			<p:commandButton value="ADD" onclick="PF('dlg').show();"
+				title="Add technology" icon="ui-icon-plus">
+			</p:commandButton>
+
+			<p:growl id="growl" sticky="true" showDetail="true" life="3000" />
+
+			<p:dialog header="Add technology" widgetVar="dlg" resizable="false">
+				<h:form>
+				
+					<p:panel>
+						<h:panelGrid columns="2" cellpadding="5">
+							<h:outputLabel for="name" value="Name:" />
+							<p:selectOneMenu id="name"
+								value="#{listEmployee.technologyToADD.technology}"
+								style="width:150px" converter="#{technologyConverter}">
+								<f:selectItems value="#{listEmployee.technologies}" var="tech"
+									itemLabel="#{tech.name}" itemValue="#{tech}" />
+							</p:selectOneMenu>
+
+							<p:outputLabel for="date" value="Date:" />
+							<p:calendar id="date"
+								value="#{listEmployee.technologyToADD.date}" required="true" />
+
+							<h:outputLabel for="rate" value="Rate:" />
+							<p:inputText id="rate"
+								value="#{listEmployee.technologyToADD.rate}" required="true">
+								<f:validateDoubleRange minimum="1" maximum="5" />	
+							</p:inputText>
+
+							<f:facet name="footer">
+								<p:growl id="growl" showDetail="true" sticky="true" /> 
+								<p:commandButton value="Add" update=":form:techForm:techTable growl"
+									icon="ui-icon-disk" type="submit" ajax="true"
+									actionListener="#{listEmployee.addTech}"
+									oncomplete="handleLoginRequest(xhr, status, args)"
+									validateClient="true" process="@form" />
+							</f:facet>
+						</h:panelGrid>
+					</p:panel>
+				</h:form>
+			</p:dialog>
+		</h:form>
+	</h:form>
+</h:body>
+
+<script type="text/javascript">
+	function handleLoginRequest(xhr, status, args) {
+		if (args.validationFailed || !args.success) {
+			PF('dlg').jq.effect("shake", {
+				times : 5
+			}, 100);
+		} else {
+			PF('dlg').hide();
+		}
+	}
+</script>
+
+
+</html>

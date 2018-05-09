@@ -1,0 +1,80 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Register Employee</title>
+</h:head>
+<h:body>
+	<ui:include src="tabMenu.xhtml" />
+
+	<h:form id="form" width="50%">
+		<p:dataTable scrollable="true" scrollHeight="150" id="techTable"
+			var="technology" value="#{listTechnology.technologies}"
+			rowKey="#{technology.id}"
+			selection="#{listTechnology.selectedTechnology}"
+			selectionMode="single" ajax="true">
+
+			<f:facet name="header">
+	            List of the Technologies
+	        </f:facet>
+
+			<p:column headerText="Technology Name">
+				<h:outputText value="#{technology.name}" />
+			</p:column>
+
+			<f:facet name="footer">
+        			In total there are #{listTechnology.technologies.size()} technologies.
+    		</f:facet>
+
+
+
+		</p:dataTable>
+		
+		<h:form id = "addForm">
+			<p:commandButton value="ADD" onclick="PF('dlg').show();"
+				title="Add technology" icon="ui-icon-plus">
+			</p:commandButton>
+
+			<p:growl id="growl" sticky="true" showDetail="true" life="3000" />
+
+			<p:dialog header="Add technology" widgetVar="dlg" resizable="false">
+				<h:form>
+					<p:panel>
+						<h:panelGrid columns="2" cellpadding="5">
+						
+							<h:outputLabel for="name" value="Name:" />
+							<p:inputText id="name"
+								value="#{listTechnology.technologyToADD.name}" required="true">
+								<f:validateLength minimum="2"/>
+							</p:inputText>
+
+							<f:facet name="footer">
+								<p:commandButton value="Add" update="@form"
+									icon="ui-icon-plus" type="submit" ajax="true"
+									actionListener="#{listTechnology.addTech}"
+									oncomplete="handleLoginRequest(xhr, status, args)"
+									validateClient="true" process="@form" />
+							</f:facet>
+						</h:panelGrid>
+					</p:panel>
+				</h:form>
+			</p:dialog>
+			</h:form>
+
+	</h:form>
+</h:body>
+<script type="text/javascript">
+	function handleLoginRequest(xhr, status, args) {
+		if (args.validationFailed || !args.loggedIn) {
+			PF('dlg').jq.effect("shake", {
+				times : 5
+			}, 100);
+		} else {
+			PF('dlg').hide();
+			// $('#loginLink').fadeOut();
+		}
+	}
+</script>
+</html>
