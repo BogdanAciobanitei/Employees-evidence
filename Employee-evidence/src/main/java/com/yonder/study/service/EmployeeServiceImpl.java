@@ -13,8 +13,12 @@ import com.yonder.study.model.Employee;
 @Transactional(rollbackFor = Exception.class)
 public class EmployeeServiceImpl implements IEmployeeService{
 	
-	@Autowired
 	private IEmployeeDAO EmployeeDAO;
+	
+	@Autowired
+	public EmployeeServiceImpl(IEmployeeDAO dao){
+		this.EmployeeDAO = dao;
+	}
 	
 	@Override
 	public Employee get(Long id) {
