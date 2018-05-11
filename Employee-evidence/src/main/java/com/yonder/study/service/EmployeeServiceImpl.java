@@ -13,36 +13,39 @@ import com.yonder.study.model.Employee;
 @Transactional(rollbackFor = Exception.class)
 public class EmployeeServiceImpl implements IEmployeeService{
 	
-	private IEmployeeDAO EmployeeDAO;
-	
 	@Autowired
-	public EmployeeServiceImpl(IEmployeeDAO dao){
-		this.EmployeeDAO = dao;
+	private IEmployeeDAO employeeDAO;
+	
+	public EmployeeServiceImpl() {
+	};
+
+	public EmployeeServiceImpl(IEmployeeDAO employeeDAO) {
+		this.employeeDAO = employeeDAO;
 	}
 	
 	@Override
 	public Employee get(Long id) {
-		return EmployeeDAO.get(id);
+		return employeeDAO.get(id);
 	}
 
 	@Override
 	public Employee create(Employee entity) {
-		return EmployeeDAO.create(entity);
+		return employeeDAO.create(entity);
 	}
 
 	@Override
 	public List<Employee> findAll() {
-		return EmployeeDAO.findAll();
+		return employeeDAO.findAll();
 	}
 
 	@Override
 	public Employee update(Employee entity) {
-		return EmployeeDAO.update(entity);
+		return employeeDAO.update(entity);
 	}
 
 	@Override
 	public void delete(Employee entity) {
-		EmployeeDAO.delete(entity);
+		employeeDAO.delete(entity);
 		
 	}
 }
