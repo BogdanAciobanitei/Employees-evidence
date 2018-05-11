@@ -1,2 +1,3 @@
-*.class
-*standalone\tmp\vfs\deployment*
+*/target/*
+*standalon/tmp/*
+*standalone/log/*
